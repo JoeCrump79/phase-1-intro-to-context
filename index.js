@@ -1,5 +1,12 @@
 function createEmployeeRecord(employeeData) {
-
+    return {
+        firstName: employeeData[0],
+        familyName: employeeData[1],
+        title: employeeData[2],
+        payPerHour: employeeData[3],
+        timeInEvents: [],
+        timeOutEvents: [],
+    }
 }
 
 function createEmployeeRecords(employeeData) {
