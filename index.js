@@ -10,7 +10,7 @@ function createEmployeeRecord(employeeData) {
 }
 
 function createEmployeeRecords(employeeData) {
-
+    return employeeData.map(createEmployeeRecord)
 }
 
 function createTimeInEvent(employeeRecord, dateTimeStamp) {
